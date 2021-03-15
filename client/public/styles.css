@@ -1,0 +1,311 @@
+body {
+  background-color: #ffeaa7;
+  min-height: 70vh;
+  padding: 1rem;
+  box-sizing: border-box;
+
+  color: hsl(198, 1%, 29%);
+  font-family: "Architects Daughter", cursive;
+  text-align: center;
+  font-size: 130%;
+}
+
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  min-height: 250px;
+  max-width: 500px;
+  min-width: 250px;
+  background: #f1f5f8;
+  background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+  background-size: 25px 25px;
+  border-radius: 20px;
+  box-shadow: 4px 3px 7px 2px #00000040;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+}
+.heading h1 {
+  transform: rotate(2deg);
+  padding: 0.2rem 1.2rem;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  background-color: #fdcb6e;
+  font-size: 1.5rem;
+}
+
+.form input {
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 0.7rem;
+  border-bottom-right-radius: 15px 3px;
+  border-bottom-left-radius: 3px 15px;
+  border: solid 3px transparent;
+  border-bottom: dashed 3px #fdcb6e;
+  font-family: "Architects Daughter", cursive;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: hsla(260, 2%, 25%, 0.7);
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+/* button {
+  padding: 0;
+  border: none;
+  font-family: "Architects Daughter", cursive;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  background-color: #ffeaa7;
+}
+button span {
+  background: #f1f5f8;
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 2px solid hsl(198, 1%, 29%);
+} */
+
+li {
+  text-align: left;
+  position: relative;
+}
+
+.Delete{
+  padding: 2%;
+  margin-left: 5%;
+  background-color:  #f8d799;
+  transform: rotate(2deg);
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+
+}
+
+
+h2{
+  font-family: serif;
+  display: inline-block;
+  color: hsl(198, 1%, 29%);
+  margin:3%;
+}
+
+.TimeCard{
+  transform: rotate(-3deg);
+  display: block;
+  position: relative;
+  right: 0%;
+  background-image: none;
+  min-width:190px ;
+  max-width: 200px;
+  min-height: 100px;
+  max-height: 250px;
+}
+.weatherCard{
+  transform: rotate(-3deg);
+  display: block;
+  position: relative;
+  right: 0%;
+  top: 70%;
+  background-image: none;
+  min-width:190px ;
+  max-width: 200px;
+  min-height: 100px;
+  max-height: 300px;
+}
+
+.btnAdd{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+
+.quote{
+  color: hsl(198, 1%, 29%);
+  font-size: 1.17em;
+   font-weight: bolder
+}
+
+.split{
+  margin-top: 60px;
+}
+
+.CityName{
+  margin: 0%;
+}
+.weatherTitle{
+  margin-bottom: 0%;
+}
+
+.listItemli{
+  /* display: inline-flex;
+  flex-direction: row;
+  padding: 0.5rem; */
+  display: inline;
+  justify-content: left;
+  text-align: left;
+}
+
+.dot {
+  height: 7px;
+  width: 7px;
+  background-color: rgb(36, 34, 34);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.listPosition{
+  position: relative;
+  right: 5%;
+  text-align: left;
+  padding: 0.5rem;
+}
+
+
+.listTodos{
+  transform: rotate(2deg);
+  /* width: 30%; */
+  height: 70%;
+  position: relative;
+  top: 20%;
+  left: 3%;
+}
+.previousList{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  height: 200px;
+  width: 170px;
+  background: #f1f5f8;
+  background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+  background-size: 15px 15px;
+  border-radius: 20px;
+  box-shadow: 4px 3px 7px 2px #00000040;
+  padding: 0.2rem;
+  box-sizing: border-box;
+}
+
+.previousTodos{
+    text-align: left;
+    position: relative;
+    font-size: 1rem;
+}
+.previousHeading{
+  transform: rotate(2deg);
+  padding: 0.1rem 1rem;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  background-color: #fdcb6e;
+  font-size: 1rem;
+}
+
+
+.Dialog{
+  transform: rotate(-2deg);
+}
+
+.previousBorder{
+  background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+  background-size: 15px 15px;
+  border-radius: 20px;
+  box-shadow: 4px 3px 7px 2px #00000040;
+}
+
+.ScrollStyle
+{
+    /* direction: rtl; */
+    overflow:auto;
+    max-height: 600px;
+    overflow-y: scroll;
+}
+/* .item_direction {
+  direction:ltr;
+} */
+
+
+.SavebuttonPosition{
+  display: inline-block;
+  position: relative;
+  padding-top: 20px;
+  margin-left: 120px;
+}
+
+.NewbuttonPosition{
+  display: inline-block;
+  position: relative;
+  padding-top: 20px;
+  margin-left: 2px;
+}
+
+
+
+.signin{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    height: auto;
+    min-height: 200px;
+    max-width: 500px;
+    min-width: 250px;
+    background: #f8efcf;
+    background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+    background-size: 25px 25px;
+    border-radius: 20px;
+    box-shadow: 4px 3px 7px 2px #00000040;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  
+ .signup{
+  margin-top: 1%;
+ } 
+
+
+.signinHeading{
+  transform: rotate(2deg);
+  padding: 0.2rem 1.2rem;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  background-color: #fdcb6e;
+  font-size: 1.5rem;
+}
+
+.facebookIcon{
+  margin-right: 15px;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .username {
+    display: none;
+  }
+}
+
+.weatherCity{
+  width: 50%;
+}
+
+.GoogleButton:disabled{
+  height: 40px;
+  max-width: 265px;
+  min-width: 150px;
+  margin-bottom: 10px;
+}
+.GoogleButton:enabled{
+  height: 40px;
+  max-width: 265px;
+  min-width: 150px;
+  margin-bottom: 10px;
+  
+}
